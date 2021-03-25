@@ -2,11 +2,12 @@
   "name": "create-logo",
   "version": "1.0.0",
   "description": "Create a simple svg logo with text over a background.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "bin": {
     "create-logo": "./bin/create-logo"
   },
+  "files": ["dist", "bin"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
