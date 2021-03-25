@@ -1,14 +1,11 @@
 {
   "name": "create-logo",
   "version": "1.0.0",
-  "description": "Create a simple svg logo with text over a background..",
+  "description": "Create a simple svg logo with text over a background.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
-    "create-logo": "bin/create-logo"
-  },
-  "publishConfig": {
-    "access": "public"
+    "create-logo": "./bin/create-logo"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -34,10 +31,10 @@
   "homepage": "https://github.com/xCloudzx/create-logo#readme",
   "dependencies": {
     "arg": "^5.0.0",
-    "sharp": "^0.27.2",
-    "typescript": "^4.2.3"
+    "sharp": "^0.27.2"
   },
   "devDependencies": {
-    "@types/sharp": "^0.27.1"
+    "@types/sharp": "^0.27.1",
+    "typescript": "^4.2.3"
   }
 }
