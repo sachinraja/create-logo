@@ -1,5 +1,5 @@
 {
-  "name": "simplelogo",
+  "name": "create-logo",
   "version": "1.0.0",
   "description": "Create a simple svg logo with text over a background..",
   "main": "dist/index.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xCloudzx/simplelogo.git"
+    "url": "git+https://github.com/xCloudzx/create-logo.git"
   },
   "keywords": [
     "logo",
@@ -29,9 +29,9 @@
   "author": "xCloudzx",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xCloudzx/simplelogo/issues"
+    "url": "https://github.com/xCloudzx/create-logo/issues"
   },
-  "homepage": "https://github.com/xCloudzx/simplelogo#readme",
+  "homepage": "https://github.com/xCloudzx/create-logo#readme",
   "dependencies": {
     "arg": "^5.0.0",
     "sharp": "^0.27.2",
