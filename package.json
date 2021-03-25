@@ -1,0 +1,43 @@
+{
+  "name": "simplelogo",
+  "version": "1.0.0",
+  "description": "Create a simple svg logo with text over a background..",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "create-logo": "bin/create-logo"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xCloudzx/simplelogo.git"
+  },
+  "keywords": [
+    "logo",
+    "generator",
+    "cli",
+    "create-logo"
+  ],
+  "author": "xCloudzx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xCloudzx/simplelogo/issues"
+  },
+  "homepage": "https://github.com/xCloudzx/simplelogo#readme",
+  "dependencies": {
+    "arg": "^5.0.0",
+    "sharp": "^0.27.2",
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "@types/sharp": "^0.27.1"
+  }
+}

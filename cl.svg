@@ -1,0 +1,8 @@
+
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+  </style>
+  <rect width="100%" height="100%" rx="3" fill="#FFFF00" />
+  <text x="100%" y="95%" text-anchor="end" font-family="Montserrat" font-weight="700" fill="#000000">CL</text>
+</svg>
