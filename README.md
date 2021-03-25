@@ -1,4 +1,8 @@
-# create-logo
+<h1>
+  <img src="./cl.svg" alt="Avatar" width="50" height="50">
+  create-logo
+</h1>
+
 Create a simple svg logo with text over a background.
 
 ## Installation
