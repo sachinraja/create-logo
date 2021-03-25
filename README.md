@@ -1,4 +1,4 @@
-# simplelogo
+# create-logo
 Create a simple svg logo with text over a background.
 
 ## Installation
