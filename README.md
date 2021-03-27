@@ -1,5 +1,5 @@
 <h1>
-  <img src="./cl.svg" alt="Avatar" width="50" height="50">
+  <img src="cl.svg" alt="create-logo Logo" width="50" height="50">
   create-logo
 </h1>
 
