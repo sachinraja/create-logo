@@ -17,7 +17,7 @@ SVG Example: `create-logo CL --bgColor "#FFFF00" --textColor "#000000" --outFile
 
 PNG Example: `create-logo CL --bgColor "#FFFF00" --textColor "#000000" --outFile "cl.png" --png`
 ### Arguments
-  * --bgColor: Set the background color of the logo. Default is "#000" (black).
+  * --bgColor: Set the background color of the logo. Default is `#000` (black).
   * --textColor: Set the color of the text in the logo. Default is `#FFF` (white).
   * --outFile: The file to put the svg or, if specified, the png in.
   * --png: Specify if you want to create a png logo (default is svg).
