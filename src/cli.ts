@@ -18,8 +18,8 @@ function parseArgumentsIntoOptions(rawArgs: any) {
   return {
     help: args['--help'] || false,
     text: args['_'][0],
-    bgColor: args['--bgColor'] || '#FFFFFF',
-    textColor: args['--textColor'] || '#000000',
+    bgColor: args['--bgColor'] || '#000',
+    textColor: args['--textColor'] || '#FFF',
     outFile: args['--outFile'],
     png: args['--png'] || false,
   }
@@ -30,7 +30,7 @@ export async function cli(args: any) {
   if (options.help) return console.log('usage: create-logo <text> [--help] [--bgColor <background color>] [--textColor <text color>] [outFile <path>] [--png]')
   if (!options.text) return console.error('Text must be specified.');
 
-  const svg = createSvg(options);
+  const svg = await createSvg(options);
 
   if (!options.outFile) return console.log(svg);
 

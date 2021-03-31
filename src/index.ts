@@ -1,6 +1,7 @@
-import sharp, { Sharp } from 'sharp';
 import fs from 'fs';
-
+import path from 'path';
+import sharp, { Sharp } from 'sharp';
+import opentype from 'opentype.js';
 interface SvgOptions {
   bgColor: string;
   text: string;
@@ -13,17 +14,18 @@ interface SvgOptions {
  * @param text The text for the logo.
  * @returns The generated logo svg.
  */
-export function createSvg({ bgColor, text, textColor }: SvgOptions) {
-  return `
-<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Montserrat:700');
-  </style>
-  <rect width="100%" height="100%" rx="3" fill="${bgColor}" />
-  <text x="100%" y="95%" text-anchor="end" font-family="Montserrat" font-weight="700" fill="${textColor}">${text}</text>
-</svg>
-`;
-}
+export async function createSvg({ bgColor, text, textColor }: SvgOptions) {
+  const font = await opentype.load('src/Montserrat-Bold.ttf');
+  const fontPath = font.getPath(text, 4, 22, 14);
+  fontPath.fill = textColor;
+
+  return [
+    `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">`,
+    `<rect width="100%" height="100%" rx="3" fill="${bgColor}" />`,
+    fontPath.toSVG(2),
+    '</svg>',
+  ].join('');
+};
 
 /**
  * Create a sharp from an svg.

@@ -1,12 +1,1 @@
-
-<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    @font-face {
-        font-family: Montserrat;
-        src: url('fonts/Montserrat-Bold.eot'), url('fonts/Montserrat-Bold.ttf') format('truetype'), url('fonts/Montserrat-Bold.svg') format('svg');
-        font-weight: 700;
-    }
-  </style>
-  <rect width="100%" height="100%" rx="3" fill="#FFFF00" />
-  <text x="100%" y="95%" text-anchor="end" font-family="Montserrat" font-weight="700" fill="#000000">CL</text>
-</svg>
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" rx="3" fill="#FFFF00" /><path d="M9.85 22.17Q8.35 22.17 7.14 21.52Q5.93 20.87 5.24 19.71Q4.55 18.56 4.55 17.10L4.55 17.10Q4.55 15.64 5.24 14.49Q5.93 13.33 7.14 12.68Q8.35 12.03 9.87 12.03L9.87 12.03Q11.14 12.03 12.17 12.48Q13.20 12.93 13.90 13.77L13.90 13.77L12.44 15.11Q11.45 13.96 9.98 13.96L9.98 13.96Q9.07 13.96 8.35 14.36Q7.64 14.76 7.24 15.48Q6.84 16.19 6.84 17.10L6.84 17.10Q6.84 18.01 7.24 18.72Q7.64 19.44 8.35 19.84Q9.07 20.24 9.98 20.24L9.98 20.24Q11.45 20.24 12.44 19.07L12.44 19.07L13.90 20.42Q13.20 21.27 12.16 21.72Q11.13 22.17 9.85 22.17L9.85 22.17ZM15.42 22L15.42 12.20L17.69 12.20L17.69 20.15L22.61 20.15L22.61 22L15.42 22Z" fill="#000000"/></svg>
