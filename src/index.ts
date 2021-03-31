@@ -15,7 +15,7 @@ interface SvgOptions {
  * @returns The generated logo svg.
  */
 export async function createSvg({ bgColor, text, textColor }: SvgOptions) {
-  const font = await opentype.load('src/Montserrat-Bold.ttf');
+  const font = await opentype.load(path.join(__dirname, '../', 'fonts', 'Montserrat-Bold.ttf'));
   const fontPath = font.getPath(text, 4, 22, 14);
   fontPath.fill = textColor;
 
