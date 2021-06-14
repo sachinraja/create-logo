@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xCloudzx/create-logo.git"
+    "url": "git+https://github.com/sachinraja/create-logo.git"
   },
   "keywords": [
     "logo",
@@ -27,12 +27,12 @@
     "cli",
     "create-logo"
   ],
-  "author": "xCloudzx",
+  "author": "Sachin Raja <sachinraja2349@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xCloudzx/create-logo/issues"
+    "url": "https://github.com/sachinraja/create-logo/issues"
   },
-  "homepage": "https://github.com/xCloudzx/create-logo#readme",
+  "homepage": "https://github.com/sachinraja/create-logo#readme",
   "dependencies": {
     "arg": "^5.0.0",
     "opentype.js": "^1.3.3",
